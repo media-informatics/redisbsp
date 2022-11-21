@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "637bd24b591486e82f07f191"
+  },
+  "artist": "Rammstein",
+  "album": "Zeit",
+  "year": 2022
+},{
+  "_id": {
+    "$oid": "637bd24b591486e82f07f192"
+  },
+  "artist": "Queen",
+  "album": "A Day at the Races",
+  "year": 1976
+},{
+  "_id": {
+    "$oid": "637bd24b591486e82f07f194"
+  },
+  "artist": "Rammstein",
+  "album": "Rammstein",
+  "year": 2020
+},{
+  "_id": {
+    "$oid": "637bd322152f7b1d0f50f219"
+  },
+  "artist": "Beethoven",
+  "album": "9. Symphonie",
+  "year": 1824
+}]

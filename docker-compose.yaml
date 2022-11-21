@@ -1,0 +1,26 @@
+version: '3'
+services:
+    mongodb_container:
+        image: mongo:latest
+        container_name: db
+        restart: always
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: root
+            MONGO_INITDB_ROOT_PASSWORD: rootpassword
+        ports:
+            - "27017:27017"
+        volumes:
+            - mongodb_data_container:/data/db
+    cache:
+        image: myredis 
+        container_name: rediscache
+        restart: always
+        build:
+                context: .
+                dockerfile: Dockerfile.redis
+
+        ports:
+            - '6379:6379'
+volumes:
+    mongodb_data_container:
+
